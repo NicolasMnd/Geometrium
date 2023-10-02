@@ -118,8 +118,4 @@ public class GrahamScan extends ConvexHullAlgoritme {
 
     }
 
-    public PaintInformationConvex getPaintInfo() {
-        return new PaintInformationConvex(getCoordinates(), getConvexes());
-    }
-
 }

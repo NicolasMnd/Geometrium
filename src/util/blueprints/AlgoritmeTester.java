@@ -28,7 +28,8 @@ public class AlgoritmeTester {
         System.out.println("Algoritme: " + name);
         System.out.println("  Size          Time");
         for(int i = 0; i < sizes.size(); i++) {
-            System.out.println("  " + sizes.get(i) + getSpace(sizes.get(i)) + times.get(i));
+            System.out.println(times.get(i));
+            //System.out.println("  " + sizes.get(i) + getSpace(sizes.get(i)) + times.get(i));
         }
     }
 

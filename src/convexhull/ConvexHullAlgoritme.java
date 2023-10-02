@@ -1,12 +1,15 @@
 package convexhull;
 
+import sorting.QuickSort;
 import util.blueprints.Algoritme;
 import util.helpers.Printer;
 import util.helpers.PuntenGenerator;
 import util.math.Pos;
 import util.math.Vector;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public abstract class ConvexHullAlgoritme extends Algoritme {
 
@@ -79,5 +82,11 @@ public abstract class ConvexHullAlgoritme extends Algoritme {
         return true;
 
     }
+
+    public PaintInformationConvex getPaintInfo() {
+        System.out.println("Convexes length: " + getConvexes().size());
+        return new PaintInformationConvex(getCoordinates(), getConvexes());
+    }
+
 
 }

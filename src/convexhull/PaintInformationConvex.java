@@ -38,7 +38,9 @@ public class PaintInformationConvex extends PaintInformation {
 
         graphics.setColor(Color.RED);
         for(Pos p : convexes)
-            graphics.drawOval((int) p.x()*10, (int) p.y()*10, 4, 4);
+            if(p != null)
+                graphics.drawOval((int) p.x()*10, (int) p.y()*10, 4, 4);
+
 
 
     }

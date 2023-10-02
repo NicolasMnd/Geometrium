@@ -25,7 +25,7 @@ public class Terminal {
     public void run() {
 
         AlgoritmeTester tester = new AlgoritmeTester("BruteForce Convex Hull");
-        for(int i = 20; i < 40; i += 20) {
+        for(int i = 40; i < 41; i += 20) {
 
             /*
             BruteForceConvex bruteForcer = new BruteForceConvex(i);
@@ -34,16 +34,27 @@ public class Terminal {
             if(i == 100) this.paintComponents.add(bruteForcer.getPaintInfo());
             */
 
+
             /*
             AndrewsIncremental andrews = new AndrewsIncremental(i);
             andrews.getPrinter().stopPrints();
             tester.test(andrews, 1, i);
-            this.paintComponents.add(andrews.getPaintInformation());
+            if(i == 100) this.paintComponents.add(andrews.getPaintInfo());
             */
 
+
             GrahamScan grahamScan = new GrahamScan(i);
+            grahamScan.getPrinter().stopPrints();
             tester.test(grahamScan, 1, i);
+
+
             this.paintComponents.add(grahamScan.getPaintInfo());
+
+            /**
+            JarvisMarch jarvisMarch = new JarvisMarch(i);
+            tester.test(jarvisMarch, 1, i);
+            this.paintComponents.add(jarvisMarch.getPaintInfo());
+             */
 
         }
 

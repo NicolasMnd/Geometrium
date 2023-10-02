@@ -51,8 +51,4 @@ public class BruteForceConvex extends ConvexHullAlgoritme {
 
     }
 
-    public PaintInformationConvex getPaintInfo() {
-        return new PaintInformationConvex(getCoordinates(), getConvexes());
-    }
-
 }

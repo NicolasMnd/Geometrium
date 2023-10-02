@@ -92,13 +92,13 @@ public class AndrewsIncremental extends ConvexHullAlgoritme {
                 printer.print("Size is greater than 3. Checking for errors");
 
                 int size = convexPoints.size();
-                Pos last = convexPoints.get(size-3);
-                Pos middle = convexPoints.get(size-2);
-                Pos first = convexPoints.get(size-1);
+                Pos last = convexPoints.get(size-2);
+                Pos middle = convexPoints.get(size-1);
+                Pos first = coordinates[i];
 
                 if(cross(middle.minus(last), first.minus(last)) > 0) {
 
-                    convexPoints.remove(size-2);
+                    convexPoints.remove(size-1);
                     printer.print("Removing point from list so size is now " + convexPoints.size());
 
                 } else break;
@@ -113,10 +113,6 @@ public class AndrewsIncremental extends ConvexHullAlgoritme {
 
         this.setConvexes(convexPoints);
 
-    }
-
-    public PaintInformation getPaintInformation() {
-        return new PaintInformationConvex(getCoordinates(), getConvexes());
     }
 
     private void printList(LinkedList<Pos> convexPoints) {

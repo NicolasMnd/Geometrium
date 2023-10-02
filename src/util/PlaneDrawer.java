@@ -73,6 +73,7 @@ public class PlaneDrawer extends JPanel implements Runnable {
 
         Stroke stroke = new BasicStroke(1f);
         g2.setStroke(stroke);
+        /*
         g2.drawRect(50, 0, 1, 1000);
         g2.drawRect(100, 0, 1, 1000);
         g2.drawRect(150, 0, 1, 1000);
@@ -86,6 +87,7 @@ public class PlaneDrawer extends JPanel implements Runnable {
         g2.drawRect(0, 200, 1000, 1);
         g2.drawRect(0, 250, 1000, 1);
         g2.drawRect(0, 300, 1000, 1);
+        */
 
 
         terminal.paint(g2);
