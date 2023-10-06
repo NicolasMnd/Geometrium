@@ -6,6 +6,7 @@ import util.math.Segment;
 public class DoorlooplijnQuicksort {
 
     private Printer printer = new Printer();
+    private FieldGetter fieldSelector;
 
     public DoorlooplijnQuicksort() {
         printer.stopPrints();
@@ -13,6 +14,10 @@ public class DoorlooplijnQuicksort {
 
     public Segment[] sort(Segment[] array) {
         return hoare(array, 0, array.length-1);
+    }
+
+    public void setFieldSelector(FieldGetter geter) {
+        this.fieldSelector = geter;
     }
 
     private Segment[] hoare(Segment[] array, int low, int high) {
@@ -29,8 +34,12 @@ public class DoorlooplijnQuicksort {
         return array;
     }
 
+    public float getValue(Segment seg) {
+        return fieldSelector.getFloat(seg);
+    }
+
     private int partitionHoare(Segment[] array, int low, int high) {
-        float pivot = array[low].highestY();
+        float pivot = getValue(array[low]);
         Segment pivotSegment = array[low];
 
         // i + 1, since low is the pivot!
@@ -42,7 +51,7 @@ public class DoorlooplijnQuicksort {
         while(i < j) {
 
             // Search for an element bigger than the pivot starting from low+1
-            while (array[i].highestY() <= pivot && i < high) {
+            while (getValue(array[i]) <= pivot && i < high) {
                 printer.print("Checking at index ", i + ": element ", array[i] + " <= " + pivot);
                 i++;
             }
@@ -50,7 +59,7 @@ public class DoorlooplijnQuicksort {
             else printer.print("i (" + i + ") not < " + high);
 
             // Search for an element smaller than pivot to switch with i
-            while (array[j].highestY() > pivot && j > low) {
+            while (getValue(array[j]) > pivot && j > low) {
                 printer.print("Checking at index " + j + ": element " + array[j] + " > " + pivot);
                 j--;
             }
@@ -70,7 +79,7 @@ public class DoorlooplijnQuicksort {
         } // Repeat this process until i >= j
 
         // If i == j, then the algorithm stopped immediately. Pivot should stay in place
-        if(true/*i != j*/ && array[j].highestY() < pivot) {
+        if(getValue(array[j]) < pivot) {
             // Switch pivot & j or i element
             //printer.print("Pivot change before: ", printer.floatString(array));
             array[low] = array[j];

@@ -3,7 +3,9 @@ package intersection;
 import util.math.Segment;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class BruteForceSegment extends LineIntersectionAlgorithm {
 
@@ -19,7 +21,7 @@ public class BruteForceSegment extends LineIntersectionAlgorithm {
     public void run() {
 
         Segment[] segments = getSegments();
-        List<Segment> intersections = new ArrayList<>();
+        Set<Segment> intersections = new HashSet<>();
 
         for(int i = 0; i < segments.length; i++) {
 
@@ -32,7 +34,6 @@ public class BruteForceSegment extends LineIntersectionAlgorithm {
                 if(j != i && !this.areColinear(segA, segB)) {
 
                     if(intersect(segA, segB)) {
-                        printer.print("Segment " + segA.getColor(), " intersects " + segB.getColor());
                         intersections.add(segA);
                         intersections.add(segB);
                     }
@@ -44,6 +45,7 @@ public class BruteForceSegment extends LineIntersectionAlgorithm {
         }
 
         setIntersections(intersections);
+        System.out.println(getIntersectionCalculations());
 
     }
 

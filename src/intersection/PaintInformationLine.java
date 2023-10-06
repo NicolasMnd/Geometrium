@@ -5,13 +5,14 @@ import util.math.Segment;
 
 import java.awt.*;
 import java.util.List;
+import java.util.Set;
 
 public class PaintInformationLine extends PaintInformation {
 
     private final Segment[] segments;
-    private final List<Segment> segmentList;
+    private final Set<Segment> segmentList;
 
-    public PaintInformationLine(Segment[] segments, List<Segment> intersections) {
+    public PaintInformationLine(Segment[] segments, Set<Segment> intersections) {
         this.segments = segments;
         this.segmentList = intersections;
     }

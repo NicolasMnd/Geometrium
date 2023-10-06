@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946d9f5c-ec37-4a7b-aef6-7291b0b900bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/intersection/BruteForceSegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intersection/Doorlooplijn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intersection/IntersectionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intersection/LineIntersectionAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intersection/PaintInformationLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/DoorlooplijnQuicksort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/math/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/FieldGetter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convexhull/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Terminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/PlaneDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PlaneDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/Terminal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/BruteForceSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/BruteForceSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/LineIntersectionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/LineIntersectionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/PaintInformationLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/PaintInformationLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intersection/BruteForceSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/BruteForceSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intersection/Doorlooplijn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/Doorlooplijn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intersection/LineIntersectionAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/LineIntersectionAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intersection/PaintInformationLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/PaintInformationLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/DoorlooplijnQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/DoorlooplijnQuicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Terminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/math/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/math/Segment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

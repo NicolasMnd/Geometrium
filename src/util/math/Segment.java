@@ -27,7 +27,7 @@ public class Segment {
     }
 
     public String getPrint() {
-        return "[" + start.x() + ", " + start.y() + "] -> [" + end.x() + ", " + end.y() + "]";
+        return "[" + start.x() + ", " + start.y() + "] -> [" + end.x() + ", " + end.y() + "] (" + getColor() + ")";
     }
 
     private Color getColor(int idx) {
@@ -98,10 +98,13 @@ public class Segment {
 
     public void drawSegment(Graphics2D graphics) {
 
+
         /*
         Stroke stroke1 = new BasicStroke(1f);
         graphics.setColor(color);
-        graphics.setStroke(stroke1);*/
+        graphics.setStroke(stroke1);
+
+         */
 
         graphics.drawLine((int) start.x()*10, (int) start.y()*10, (int) end.x()*10, (int) end.y()*10);
 

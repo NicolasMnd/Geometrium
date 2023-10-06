@@ -9,11 +9,12 @@ import util.math.Segment;
 
 import javax.sound.sampled.Line;
 import java.util.List;
+import java.util.Set;
 
 public abstract class LineIntersectionAlgorithm extends Algoritme {
 
     private Segment[] segments;
-    private List<Segment> intersections;
+    private Set<Segment> intersections;
     private int size;
     private int intersectionCalculations = 0;
 
@@ -57,7 +58,7 @@ public abstract class LineIntersectionAlgorithm extends Algoritme {
 
         for(int i = 0; i < punten.length; i += 2) {
 
-            segments[counter++] = new Segment(punten[i], punten[i+1]);
+            segments[counter++] = new Segment(punten[i], punten[i+1], counter%10);
 
         }
 
@@ -73,7 +74,7 @@ public abstract class LineIntersectionAlgorithm extends Algoritme {
         return this.intersections.size() > 0;
     }
 
-    public void setIntersections(List<Segment> ints) {
+    public void setIntersections(Set<Segment> ints) {
         this.intersections = ints;
     }
 

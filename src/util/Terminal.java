@@ -27,11 +27,8 @@ public class Terminal {
      */
     public void run() {
 
-        /*
-        BruteForceSegment bfs = new BruteForceSegment(10);
-        bfs.run();
-        this.paintComponents.add(bfs.getPaintInformation());
-         */
+        AlgoritmeTester tester = new AlgoritmeTester("Sweep line");
+
 
         /*
         IntersectionGenerator gen = new IntersectionGenerator(10);
@@ -39,9 +36,14 @@ public class Terminal {
         paintComponents.add(new PaintInformationLine(new Segment[]{}, gen.getList()));
                  */
 
-        Doorlooplijn d = new Doorlooplijn(10);
-        d.run();
-        paintComponents.add(d.getPaintInformation());
+        for(int i = 0; i <= 5000; i += 100) {
+            Doorlooplijn d = new Doorlooplijn(i);
+            tester.test(d, 1, i);
+
+            //BruteForceSegment bfs = new BruteForceSegment(i);
+            //tester.test(bfs, 1, i);
+        }
+        tester.results();
 
     }
 
