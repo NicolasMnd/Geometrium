@@ -1,7 +1,6 @@
-import convexhull.Terminal;
+import util.Terminal;
 import test.TestManager;
 import util.PlaneDrawer;
-import util.helpers.InputHandler;
 import util.helpers.Wrapper;
 
 import javax.swing.*;

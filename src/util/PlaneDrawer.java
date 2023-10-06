@@ -1,10 +1,7 @@
 package util;
 
-import convexhull.Terminal;
-
 import javax.swing.*;
 import java.awt.*;
-import java.util.Objects;
 
 public class PlaneDrawer extends JPanel implements Runnable {
 
