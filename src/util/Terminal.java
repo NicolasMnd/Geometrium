@@ -1,9 +1,12 @@
 package util;
 
+import beziercurves.BezierCurve;
+import beziercurves.BezierPaintInformation;
 import intersection.*;
 import sorting.DoorlooplijnQuicksort;
 import util.blueprints.AlgoritmeTester;
 import util.blueprints.PaintInformation;
+import util.math.Pos;
 import util.math.Segment;
 
 import java.awt.*;
@@ -27,23 +30,14 @@ public class Terminal {
      */
     public void run() {
 
-        AlgoritmeTester tester = new AlgoritmeTester("Sweep line");
+        BezierCurve curve = new BezierCurve(new Pos[] {
+                new Pos(0, 0), new Pos(3, 7), new Pos(8,3), new Pos(13,7), new Pos(17,0)
+        }, -1, 18);
+        Pos[] curvePositions = curve.getCurve();
 
-
-        /*
-        IntersectionGenerator gen = new IntersectionGenerator(10);
-        gen.compose();
-        paintComponents.add(new PaintInformationLine(new Segment[]{}, gen.getList()));
-                 */
-
-        for(int i = 0; i <= 5000; i += 100) {
-            Doorlooplijn d = new Doorlooplijn(i);
-            tester.test(d, 1, i);
-
-            //BruteForceSegment bfs = new BruteForceSegment(i);
-            //tester.test(bfs, 1, i);
-        }
-        tester.results();
+        this.paintComponents.add(new BezierPaintInformation(curvePositions, new Pos[] {
+                new Pos(0, 0), new Pos(3, 7), new Pos(8,3), new Pos(13,7), new Pos(17,0)
+        }));
 
     }
 

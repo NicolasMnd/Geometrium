@@ -5,7 +5,8 @@ import java.awt.*;
 
 public class PlaneDrawer extends JPanel implements Runnable {
 
-    public static final int originalTileSize = 20;
+    // For bezier this is 100, the rest is defaulted to 20!
+    public static final int originalTileSize = 100;
     public static int scale = 1;
     public static final int tileSize = originalTileSize * scale;
     public final static int maxScreenCol = 22;

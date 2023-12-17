@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946d9f5c-ec37-4a7b-aef6-7291b0b900bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorting/FieldGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beziercurves/BernsteinPolynomal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beziercurves/BezierCurve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/beziercurves/BezierPaintInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/Terminal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/BruteForceSegment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/BruteForceSegment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/ConvexHullAlgoritme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/ConvexHullAlgoritme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/GrahamScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/GrahamScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/JarvisMarch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/JarvisMarch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/LineIntersectionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/LineIntersectionAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/PaintInformationLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/PaintInformationLine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/sorting/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/test/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/blueprints/AlgoritmeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/blueprints/AlgoritmeTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/cs/OperationTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/cs/OperationTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/helpers/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/helpers/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/math/Pos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/math/Pos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intersection/BruteForceSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/BruteForceSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intersection/Doorlooplijn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/Doorlooplijn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intersection/LineIntersectionAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/LineIntersectionAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intersection/PaintInformationLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intersection/PaintInformationLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/DoorlooplijnQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/DoorlooplijnQuicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/PlaneDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PlaneDrawer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Terminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/math/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/math/Segment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tmi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +48,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2W6mnWFdeFwtnUyLo6l5RaENXJb" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -49,10 +59,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicol/Documents/GitHub/tmi&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
