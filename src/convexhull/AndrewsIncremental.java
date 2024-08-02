@@ -59,6 +59,8 @@ public class AndrewsIncremental extends ConvexHullAlgoritme {
         // We voegen maximaal n coordinaten toe.
         for(int i = 0; i < coordinates.length; i++) {
 
+            convexPoints.add(coordinates[i]);
+
             while(convexPoints.size() >= 3) {
 
                 printer.print("Size is greater than 3. Checking for errors");
@@ -77,40 +79,40 @@ public class AndrewsIncremental extends ConvexHullAlgoritme {
 
             }
 
-            convexPoints.add(coordinates[i]);
-
             printer.print("i: " + i);
 
         }
 
-        int upperAmount = convexPoints.size();
+        printer.print("-----------------------------------\n\n\n---------------------------------");
+        LinkedList<Pos> convexPointsLower = new LinkedList<>();
 
-        for(int i = coordinates.length-2; i >= 0; i--) {
+        for(int i = coordinates.length-1; i >= 0; i--) {
 
-            while(convexPoints.size() >= upperAmount) {
+            convexPointsLower.add(coordinates[i]);
 
-                printer.print("Size is greater than 3. Checking for errors");
+            while(convexPointsLower.size() >= 3) {
 
-                int size = convexPoints.size();
-                Pos last = convexPoints.get(size-2);
-                Pos middle = convexPoints.get(size-1);
-                Pos first = coordinates[i];
+                printer.print("Size is greater than " + 3 + ". Checking for errors");
+
+                int size = convexPointsLower.size();
+                Pos last = convexPointsLower.get(size-3);
+                Pos middle = convexPointsLower.get(size-2);
+                Pos first = convexPointsLower.get(size-1);
 
                 if(cross(middle.minus(last), first.minus(last)) > 0) {
 
-                    convexPoints.remove(size-1);
-                    printer.print("Removing point from list so size is now " + convexPoints.size());
+                    convexPointsLower.remove(size-2);
+                    printer.print("Removing point from list so size is now " + convexPointsLower.size());
 
                 } else break;
 
             }
 
-            convexPoints.add(coordinates[i]);
-
             printer.print("i: " + i);
 
         }
 
+        convexPoints.addAll(convexPointsLower);
         this.setConvexes(convexPoints);
 
     }

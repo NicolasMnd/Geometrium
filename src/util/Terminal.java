@@ -2,13 +2,17 @@ package util;
 
 import beziercurves.BezierCurve;
 import beziercurves.BezierPaintInformation;
+import convexhull.AndrewsIncremental;
 import intersection.*;
+import playground.ControlNetwork;
+import playground.Edge;
 import sorting.DoorlooplijnQuicksort;
 import util.blueprints.AlgoritmeTester;
 import util.blueprints.PaintInformation;
 import util.math.Pos;
 import util.math.Segment;
 
+import javax.naming.ldap.Control;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,14 +34,16 @@ public class Terminal {
      */
     public void run() {
 
-        BezierCurve curve = new BezierCurve(new Pos[] {
-                new Pos(0, 0), new Pos(3, 7), new Pos(8,3), new Pos(13,7), new Pos(17,0)
-        }, -1, 18);
-        Pos[] curvePositions = curve.getCurve();
+        /*
+        AndrewsIncremental and = new AndrewsIncremental(20);
+        and.run();
 
-        this.paintComponents.add(new BezierPaintInformation(curvePositions, new Pos[] {
-                new Pos(0, 0), new Pos(3, 7), new Pos(8,3), new Pos(13,7), new Pos(17,0)
-        }));
+        this.paintComponents.add(and.getPaintInfo());*/
+
+        ControlNetwork c = new ControlNetwork();
+        c.expand(new Edge[]{});
+        System.out.println(c.getFoundNetworks().size());
+
 
     }
 

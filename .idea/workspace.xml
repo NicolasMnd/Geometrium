@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946d9f5c-ec37-4a7b-aef6-7291b0b900bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beziercurves/BernsteinPolynomal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beziercurves/BezierCurve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/beziercurves/BezierPaintInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/ControlNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playground/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/ConvexHullAlgoritme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/ConvexHullAlgoritme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/GrahamScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/GrahamScan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/JarvisMarch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/JarvisMarch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/intersection/Doorlooplijn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/sorting/DoorlooplijnQuicksort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/test/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/test/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/blueprints/AlgoritmeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/blueprints/AlgoritmeTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/cs/OperationTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/cs/OperationTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/helpers/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/helpers/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/math/Pos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/math/Pos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/math/Segment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/PlaneDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PlaneDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convexhull/AndrewsIncremental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convexhull/AndrewsIncremental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Terminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tmi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +41,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nicol/Documents/GitHub/tmi&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/nicol/Documents/GitHub/AfkStore",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
