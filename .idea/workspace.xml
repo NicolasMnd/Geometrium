@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="946d9f5c-ec37-4a7b-aef6-7291b0b900bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/playground/ControlNetwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playground/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/convexhull/AndrewsIncremental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tmi/util/Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convexhull/AndrewsIncremental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convexhull/AndrewsIncremental.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Terminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +35,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/nicol/Documents/GitHub/AfkStore",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nicol/Documents/GitHub/tmi",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",

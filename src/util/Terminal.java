@@ -34,15 +34,11 @@ public class Terminal {
      */
     public void run() {
 
-        /*
+
         AndrewsIncremental and = new AndrewsIncremental(20);
         and.run();
 
-        this.paintComponents.add(and.getPaintInfo());*/
-
-        ControlNetwork c = new ControlNetwork();
-        c.expand(new Edge[]{});
-        System.out.println(c.getFoundNetworks().size());
+        this.paintComponents.add(and.getPaintInfo());
 
 
     }
